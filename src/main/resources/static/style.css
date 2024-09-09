@@ -1,0 +1,46 @@
+.header-container {
+    position: relative;
+    text-align: center; /* Centerer teksten vandret */
+}
+
+.website_title {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: xx-large;
+    color: white; /* Farve på teksten */
+    position: absolute;
+    top: 70%; /* Placerer teksten midt på billedet */
+    left: 50%; /* Placerer teksten midt på billedet */
+    transform: translate(-50%, -50%); /* Justerer for at sikre midterplacering */
+    text-align: center;
+    z-index: 1; /* Sørger for, at teksten er ovenpå billedet */
+}
+
+.header-image {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F002%2F753%2F354%2Flarge_2x%2Fnew-pride-flag-lgbtq-background-redesign-including-black-brown-and-trans-pride-stripes-flat-illustration-vector.jpg&f=1&nofb=1&ipt=9a7ac707a69b34bb5b5e6d3e1e1f26a405dea42452cedef14fe13b29d6654eaf&ipo=images');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    z-index: 0; /* Sørger for, at billedet er bagved teksten */
+}
+
+footer {
+    font-style: italic;
+    background: pink;
+    color: black;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px; /* Giver afstand til indhold over footeren */
+    padding: 10px 0; /* Giver lidt indre afstand */
+}
+
+.footer-title {
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+a {
+    color: purple;
+}
